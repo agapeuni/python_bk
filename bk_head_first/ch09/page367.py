@@ -1,4 +1,3 @@
-
 import sqlite3
 
 db_name = 'coachdata.sqlite'

@@ -1,7 +1,7 @@
 
 row_data = {}
 
-with open('PaceData.csv') as paces:
+with open('bk_head_first/ch11/PaceData.csv') as paces:
 
     column_headings = paces.readline().strip().split(',')
     column_headings.pop(0)

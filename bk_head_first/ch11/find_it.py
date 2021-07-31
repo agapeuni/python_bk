@@ -1,6 +1,7 @@
 
 import time
 
+
 def find_closest(look_for, target_data):
 
     def whats_the_difference(first, second):
@@ -22,10 +23,12 @@ def find_closest(look_for, target_data):
             found_it = each_thing
     return(found_it)
 
+
 def time2secs(time_string):
     (hours, mins, secs) = time_string.split(':')
     seconds = int(secs) + (int(mins)*60) + (int(hours)*60*60)
     return(seconds)
+
 
 def secs2time(seconds):
     return(time.strftime('%H:%M:%S', time.gmtime(seconds)))
