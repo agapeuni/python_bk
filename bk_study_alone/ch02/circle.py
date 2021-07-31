@@ -1,5 +1,5 @@
-str_input=input("원의 반지름 입력> ")
-num_input=float(str_input)
+str_input = input("원의 반지름 입력> ")
+num_input = float(str_input)
 
 print()
 print("반지름: ", num_input)
