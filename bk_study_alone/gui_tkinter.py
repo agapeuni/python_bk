@@ -1,7 +1,7 @@
 import tkinter
 
 root = tkinter.Tk()
-label = tkinter.Label(root, text='김예영 프로그램')
+label = tkinter.Label(root, text='GUI 프로그램')
 label.pack()
 
 def func():
