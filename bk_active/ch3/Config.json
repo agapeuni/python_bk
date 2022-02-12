@@ -1,0 +1,7 @@
+{
+  "HOST_IP": "127.0.0.1",
+  "HOST_PORT": 1004,
+  "LOG_LEVEL": "DEBUG",
+  "SRV_ADMIN": "Klasse Code",
+  "SRV_EMAIL": "KlasseCode@gmail.com"
+}
